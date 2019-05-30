@@ -4,4 +4,5 @@
 
 shibidpbeat:
   # Defines how often an event is sent to the output
-  period: 1s
+  period: 5s
+  path: "/opt/shibboleth/logs/idp-audit.log"
